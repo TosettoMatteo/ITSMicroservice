@@ -7,7 +7,7 @@ Struttura del progetto
 
 Broker Apache Kafka e Zookeeper
 
-CI/CD tramite workflow di GitHub e Token di DockerHUB (Non risulta automatizzato ma funziona solo manualmente)
+CI/CD tramite workflow di GitHub e Token di DockerHUB 
 
 Testing circa
 
