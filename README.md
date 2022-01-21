@@ -9,6 +9,6 @@ Broker Apache Kafka e Zookeeper
 
 CI/CD tramite workflow di GitHub e Token di DockerHUB (Non risulta automatizzato ma funziona solo manualmente)
 
-Testing completamente MANCANTE
+Testing circa
 
 GraphQL completamente MANCANTE
