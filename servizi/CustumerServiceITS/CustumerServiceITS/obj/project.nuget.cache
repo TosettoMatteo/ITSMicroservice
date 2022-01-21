@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QE/9fjfnnEyxemYJMjKdrLof6dB0OePMsE3yuSr/B2A2PKz0X6c/EKmOPpIuo9FOI3pUp4A8J6/AXQaKha80Qw==",
+  "dgSpecHash": "coIhwLY3YQQ3pRhiSaGV1JLeh3HRz9sjefo3ldgZBn6nj+NeoIOV4tg/9IYaUQc4RZOTHJqhgX9lN88oZaOq4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matte\\source\\repos\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj",
+  "projectFilePath": "C:\\Users\\matte\\Desktop\\ITSMicroservice\\servizi\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matte\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\matte\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",

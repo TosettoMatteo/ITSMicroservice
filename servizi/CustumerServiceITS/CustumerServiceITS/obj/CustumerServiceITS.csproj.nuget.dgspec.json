@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matte\\source\\repos\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj": {}
+    "C:\\Users\\matte\\Desktop\\ITSMicroservice\\servizi\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matte\\source\\repos\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj": {
+    "C:\\Users\\matte\\Desktop\\ITSMicroservice\\servizi\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matte\\source\\repos\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj",
+        "projectUniqueName": "C:\\Users\\matte\\Desktop\\ITSMicroservice\\servizi\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj",
         "projectName": "CustumerServiceITS",
-        "projectPath": "C:\\Users\\matte\\source\\repos\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj",
+        "projectPath": "C:\\Users\\matte\\Desktop\\ITSMicroservice\\servizi\\CustumerServiceITS\\CustumerServiceITS\\CustumerServiceITS.csproj",
         "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matte\\source\\repos\\CustumerServiceITS\\CustumerServiceITS\\obj\\",
+        "outputPath": "C:\\Users\\matte\\Desktop\\ITSMicroservice\\servizi\\CustumerServiceITS\\CustumerServiceITS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
