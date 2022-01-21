@@ -24,8 +24,8 @@ public class CustumerTestController
             });
             await ctx.SaveChangesAsync();
         }
-        Book existingCustumer = null;
-        Book non_existingCustumer = null;
+        Custumer existingCustumer = null;
+        Custumer non_existingCustumer = null;
         #endregion
  
         #region Act
