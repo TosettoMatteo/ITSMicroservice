@@ -62,7 +62,7 @@ jobs:
       - name: CustumerService_cd/ci
         uses: docker/build-push-action@v2
         with:
-          context: ./servizi/CustumerService/CustumerService
-          file: ./servizi/CustumerService/CustumerService/Dockerfile
+          context: ./servizi/CustumerServiceITS/CustumerServiceITS
+          file: ./servizi/CustumerServiceITS/CustumerServiceITS/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/custumerserviceits:latest
