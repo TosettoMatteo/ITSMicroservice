@@ -55,9 +55,9 @@ namespace CustumerServiceITS.Controllers
         {
             await _repository.CreateCustumer(custumer);
 
-            return CreatedAtRoute("GetCustumer", new { id = custumer.Id }, custumer);
+            SendToKafka("simpletalk_topic", "messaggiodiprova");
 
-            SendToKafka(Custumer custumer);
+            return CreatedAtRoute("GetCustumer", new { id = custumer.Id }, custumer);
 
         }
 

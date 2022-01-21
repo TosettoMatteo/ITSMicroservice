@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustumerServiceITS
 {
-    [Route("api/kafka")]
     public class Kafka 
     {
         private readonly ProducerConfig config = new ProducerConfig 
