@@ -2,6 +2,7 @@
 using CustumerServiceITS.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using KafkaProducer;
 
 namespace CustumerServiceITS.Controllers
 {
@@ -55,6 +56,9 @@ namespace CustumerServiceITS.Controllers
             await _repository.CreateCustumer(custumer);
 
             return CreatedAtRoute("GetCustumer", new { id = custumer.Id }, custumer);
+
+            SendToKafka(Custumer custumer);
+
         }
 
         // PUT api/<Custumer>/5

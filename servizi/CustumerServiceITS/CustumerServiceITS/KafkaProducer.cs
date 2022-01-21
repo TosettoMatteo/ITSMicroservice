@@ -2,11 +2,10 @@ using System;
 using Confluent.Kafka;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Kafka.Producer.API.Controllers
+namespace CustumerServiceITS
 {
     [Route("api/kafka")]
-    [ApiController]
-    public class KafkaProducerController : ControllerBase
+    public class Kafka 
     {
         private readonly ProducerConfig config = new ProducerConfig 
                              { BootstrapServers = "kafka:9092" };
