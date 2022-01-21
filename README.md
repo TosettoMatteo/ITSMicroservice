@@ -1,7 +1,7 @@
 # ITSMicroservice
 Progetto per il corso di Microservizi dell'ITS Piemonte
 
-#Struttura
+Struttura del progetto
 
 3 API CRUD basate su .NET e MongoDBAtlas
 Broker Apache Kafka e Zookeeper (Non funzionante al momento)
