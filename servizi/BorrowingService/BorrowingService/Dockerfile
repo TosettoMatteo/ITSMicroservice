@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["BorrowingService/BorrowingService.csproj", "BorrowingService/"]
-RUN dotnet restore "BorrowingService/BorrowingService.csproj"
+COPY ["BorrowingService.csproj", "."]
+RUN dotnet restore "BorrowingService.csproj"
 COPY . .
-WORKDIR "/src/BorrowingService"
+WORKDIR "/src/"
 RUN dotnet build "BorrowingService.csproj" -c Release -o /app/build
 
 FROM build AS publish
