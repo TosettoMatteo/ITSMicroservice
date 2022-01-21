@@ -13,7 +13,7 @@ namespace ST_KafkaConsumer.Handlers
             var conf = new ConsumerConfig
             {
                 GroupId = "st_consumer_group",
-                BootstrapServers = "localhost:9092",
+                BootstrapServers = "kafka:9092",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
             using (var builder = new ConsumerBuilder<Ignore, 
