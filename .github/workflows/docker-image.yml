@@ -29,3 +29,21 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/bookserviceits:latest
     
+  build-borrowing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2      
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}      
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1        
+      - name: BorrowingService_cd/ci
+        uses: docker/build-push-action@v2
+        with:
+          context: ./servizi/BorrowingService/BorrowingService
+          file: ./servizi/BorrowingService/BorrowingService/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/borrowingserviceits:latest
