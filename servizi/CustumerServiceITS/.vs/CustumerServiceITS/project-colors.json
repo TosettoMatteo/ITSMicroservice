@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "452e651f-794b-47d6-9e16-89b5af6c45ad": {
+      "ProjectGuid": "452e651f-794b-47d6-9e16-89b5af6c45ad",
+      "DisplayName": "CustumerServiceITS",
+      "ColorIndex": 0
+    },
+    "f456d8a7-2bd9-4775-beda-3d7eaf8b4dab": {
+      "ProjectGuid": "f456d8a7-2bd9-4775-beda-3d7eaf8b4dab",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "File esterni",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

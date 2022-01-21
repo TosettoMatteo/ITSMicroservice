@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a81a26b4-11e9-498b-9e8c-3f5399d1f168": {
+      "ProjectGuid": "a81a26b4-11e9-498b-9e8c-3f5399d1f168",
+      "DisplayName": "BookService",
+      "ColorIndex": 0
+    },
+    "8c2a5062-102e-4643-9333-dcf9ad85fd1c": {
+      "ProjectGuid": "8c2a5062-102e-4643-9333-dcf9ad85fd1c",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
