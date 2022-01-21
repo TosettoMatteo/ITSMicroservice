@@ -1,6 +1,7 @@
 using System;
 using Confluent.Kafka;
 using Microsoft.AspNetCore.Mvc;
+
 namespace Kafka.Producer.API.Controllers
 {
     [Route("api/kafka")]

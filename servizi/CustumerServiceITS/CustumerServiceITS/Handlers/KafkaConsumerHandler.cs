@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+
 namespace ST_KafkaConsumer.Handlers
 {
     public class KafkaConsumerHandler : IHostedService
