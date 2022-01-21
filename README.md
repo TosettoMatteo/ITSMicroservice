@@ -5,7 +5,7 @@ Struttura del progetto
 
 3 API CRUD basate su .NET e MongoDBAtlas
 
-Broker Apache Kafka e Zookeeper (Non funzionante al momento)
+Broker Apache Kafka e Zookeeper
 
 CI/CD tramite workflow di GitHub e Token di DockerHUB (Non risulta automatizzato ma funziona solo manualmente)
 
