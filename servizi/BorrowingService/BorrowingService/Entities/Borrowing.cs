@@ -11,7 +11,7 @@ namespace BorrowingService.Entities
         [BsonElement("Name")]
         public string Bookid { get; set; }
         public string Custumerid { get; set; }
-        public string Datestart { get; set; }
-        public string Dateend { get; set; }
+        public DateTime Datestart { get; set; }
+        public DateTime Dateend { get; set; }
     }
 }
