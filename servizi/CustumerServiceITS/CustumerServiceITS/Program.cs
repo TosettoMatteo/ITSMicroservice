@@ -1,5 +1,5 @@
-using BorrowingService.Datas;
-using BorrowingService.Repositories;
+using CustumerServiceITS.Datas;
+using CustumerServiceITS.Repositories;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.Elasticsearch;
@@ -32,8 +32,9 @@ builder.Host.UseSerilog();
 builder.Services.AddLogging(x => { x.ClearProviders(); x.AddSerilog(dispose: true); });
 
 // Add services to the container.
-builder.Services.AddScoped<IBorrowingContext, BorrowingContext>();
-builder.Services.AddScoped<IBorrowingRepository, BorrowingRepository>();
+
+builder.Services.AddScoped<ICustumerContext, CustumerContext>();
+builder.Services.AddScoped<ICustumerRepository, CustumerRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -54,7 +55,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.UseSerilogRequestLogging();
 
 app.Run();
